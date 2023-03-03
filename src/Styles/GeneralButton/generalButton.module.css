@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.generalButton {
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid rgb(214, 212, 212);
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.8rem;
+  height: 50px;
+}
+
+.generalButtonContact {
+  background-color: rgb(19, 170, 137);
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.8rem;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-size: 20px;
+}

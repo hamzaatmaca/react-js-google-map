@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@media (max-width: 768px) {
+  .navContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "navCell navCell";
+  }
+  .navCell:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .searchContainer {
+    width: 100%;
+  }
+}

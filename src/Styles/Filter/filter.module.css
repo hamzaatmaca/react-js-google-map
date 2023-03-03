@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.filterContainer {
+  width: 750px;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+
+.filterHeader {
+  border-bottom: 1px solid rgb(211, 201, 201);
+}
+
+.department {
+  color: aqua;
+  font-size: 20px;
+}
+
+.filterButtonsHeader {
+  letter-spacing: 0.5px;
+  color: rgb(199, 196, 196);
+}
+
+.filterButtons {
+  margin-top: 20px;
+}
+
+.filterButtonsSection {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}

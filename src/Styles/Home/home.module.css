@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.homeContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  border-top: 1px solid rgb(236, 231, 231);
+  gap: 30px;
+}
+.homeSection:nth-child(1) {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  /* background-color: rgb(211, 243, 243); */
+}
+.homeSection:nth-child(2) {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  /* background-color: rgb(211, 243, 243); */
+}
+
+.homeSection:nth-child(2) > iframe {
+  border-radius: 30px;
+  margin-top: 10px;
+  width: 400px;
+  height: 500px;
+  border: 13px solid white;
+  position: fixed;
+}

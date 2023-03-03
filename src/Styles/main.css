@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* IMPORT CSS FILES */
+@import "./Navbar/navbar.module.css";
+@import "./Footer/footer.module.css";
+@import "./Home/home.module.css";
+@import "./@media/@media.module.css";
+@import "./Filter/filter.module.css";
+@import "./GeneralButton/generalButton.module.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.images {
+  width: 100%;
+}
+
+input::placeholder {
+  color: rgb(201, 193, 193);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: lighter;
+}
